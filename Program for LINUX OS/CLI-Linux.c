@@ -4,7 +4,7 @@ int main()
 {
 	struct directory *first_dir=NULL,*last_dir=NULL,*current=NULL;
 	struct file *first_file=NULL,*last_file=NULL;
-	char command[500],*p,user[492]="linuxmint-simulator";
+	char command[500],*p,user[500]="linuxmint-simulator";
 	unsigned int i;
 	system("@cls||clear");
 	logo();
